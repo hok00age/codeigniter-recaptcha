@@ -21,7 +21,7 @@ Site key and secret key can be obtained from [https://www.google.com/recaptcha/a
 #### Call `render()` method from your VIEW file.
 It will render reCAPTCHA widget onto your view
 ```php
-$this->recaptcha->render();
+<?php echo $this->recaptcha->render(); ?>
 ```
 #### Validate in your CONTROLLER
 ```php
